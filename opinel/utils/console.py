@@ -38,8 +38,9 @@ def configPrintException(enable):
 ########################################
 
 def printDebug(msg):
-    if verbose_exceptions:
-        printGeneric(sys.stderr, msg)
+    # if verbose_exceptions:
+    #     printGeneric(sys.stderr, msg)
+    pass
 
 
 def printError(msg, newLine = True):
@@ -62,7 +63,8 @@ def printGeneric(out, msg, newLine = True):
 
 
 def printInfo(msg, newLine = True ):
-    printGeneric(sys.stdout, msg, newLine)
+    # printGeneric(sys.stdout, msg, newLine)
+    pass
 
 
 
